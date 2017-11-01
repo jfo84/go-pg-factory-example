@@ -1,0 +1,18 @@
+hash: 8637a1ce3c9c0550ddb0179f3b630cc8a6c06413290d3978746b34356a518002
+updated: 2017-11-01T23:38:19.377382822+01:00
+imports:
+- name: github.com/bluele/factory-go
+  version: 1d928936c2ee62f4a0385db9842bc037bac527c1
+  subpackages:
+  - factory
+- name: github.com/go-pg/pg
+  version: c2c9b3c1cb6dcc2eac1269d1557aeee791312a1c
+  subpackages:
+  - internal
+  - internal/parser
+  - internal/pool
+  - orm
+  - types
+- name: github.com/jinzhu/inflection
+  version: 1c35d901db3da928c72a72d8458480cc9ade058f
+testImports: []
